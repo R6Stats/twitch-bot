@@ -1,0 +1,23 @@
+{
+  "name": "twitch-bot",
+  "version": "0.0.1",
+  "description": "Twitch.tv Chat bot for R6Stats",
+  "main": "src/index.js",
+  "private": true,
+  "scripts": {
+    "start": "babel-node src/index.js",
+    "dev": "nodemon --exec npm run start"
+  },
+  "author": "R6Stats <support@r6stats.com>",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "r6stats": "git://github.com/R6Stats/r6stats-node.git#v2",
+    "sqlite": "^3.0.0",
+    "sqlite3": "^4.0.2",
+    "tmi.js": "^1.2.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
